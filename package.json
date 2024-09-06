@@ -1,0 +1,19 @@
+{
+  "name": "my-project",
+  "scripts": {
+    "build:ui-library": "pnpm vite build -c libs/ui-library/vite.config.ts"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.5",
+    "@vue/tsconfig": "^0.5.1",
+    "jsdom": "^23.0.1",
+    "lint-staged": "^15.0.2",
+    "tslib": "^2.3.0",
+    "typescript": "~5.4.5",
+    "vite": "^5.0.13",
+    "vite-svg-loader": "^5.1.0",
+    "vue-tsc": "^2.0.29",
+    "ts-node": "^10.9.2"
+  }
+}

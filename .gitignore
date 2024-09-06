@@ -1,0 +1,98 @@
+# Operating system configuration files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+**/node_modules/
+
+# Log files
+*-debug.log*
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build directories
+dist
+build
+.nuxt
+out
+
+# TypeScript compilation files
+**/*.tsbuildinfo
+
+# Cache and coverage files
+.cache/
+.nuxt/
+coverage/
+*.log
+*.tlog
+*.log.*
+.nx
+
+# Debugging files
+*.log
+*.sql
+*.sqlite
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Specific directories for Nuxt.js
+.nuxt/
+.output/
+nuxt.config.js
+
+
+# Environment-specific configuration files
+*.env.local
+*.env.*.local
+
+# Backup files
+*.bak
+*.tmp
+
+# Other files and directories
+*.log
+.vs/
+.history/
+.local/
+.tmp/
+.idea/
+*.swp
+*.swo
+
+# Project-specific files
+.eslintcache
+.stylelintcache
+
+# Deployment configuration files
+.deploy*/
+
+# IDE-generated files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Editor cache directories
+.cache/
+
+# Files
+*.hot-update.js
+*.hot-update.json
+
+# Directories specific to PNPM
+.pnpm-store/
+
+# CDK
+**/cdk.out
+
+# Docker
+.docker
+
+# NPM
+.npmrc

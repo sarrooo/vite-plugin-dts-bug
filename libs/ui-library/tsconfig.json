@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  },
+  "include": ["*.d.ts", "src", "vite.config.ts", ".storybook/**/*.ts", ".storybook/main.cjs"]
+}
